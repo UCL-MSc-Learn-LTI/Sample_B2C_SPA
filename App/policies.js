@@ -5,16 +5,13 @@
  */
 const b2cPolicies = {
     names: {
-        signUpSignIn: "B2C_1_susi_reset_v2",
-        editProfile: "B2C_1_edit_profile_v2"
+        signUpSignIn: "B2C_1_Dummy_Test_sign",
     },
     authorities: {
         signUpSignIn: {
-            authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/B2C_1_susi_reset_v2",
+            authority: "https://uclmscltib2c.b2clogin.com/uclmscltib2c.onmicrosoft.com/B2C_1_Dummy_Test_sign",
+            //https://uclmscltib2c.b2clogin.com/uclmscltib2c.onmicrosoft.com/oauth2/v2.0/authorize?p=B2C_1_Dummy_Test_sign&client_id=9cb02f8b-244d-4c34-904f-72633041512a&nonce=defaultNonce&redirect_uri=http%3A%2F%2Flocalhost%3A6420%2F&scope=openid&response_type=id_token&prompt=login
         },
-        editProfile: {
-            authority: "https://fabrikamb2c.b2clogin.com/fabrikamb2c.onmicrosoft.com/B2C_1_edit_profile_v2"
-        }
     },
-    authorityDomain: "fabrikamb2c.b2clogin.com"
+    authorityDomain: "uclmscltib2c.b2clogin.com"
 }
